@@ -5,6 +5,7 @@ import {
   ExclamationTriangleIcon,
   CalendarDaysIcon,
 } from "./icons";
+import BookingCalendar from "./components/BookingCalendar";
 
 export default function Home() {
   return (
@@ -111,11 +112,7 @@ export default function Home() {
             el proceso de optimización de tu cobranza.
           </p>
 
-          <div className="border-2 border-dashed border-card-border rounded-xl p-16 flex items-center justify-center">
-            <p className="text-foreground/40 text-sm">
-              Espacio reservado para calendario externo
-            </p>
-          </div>
+          <BookingCalendar />
         </div>
       </section>
 
