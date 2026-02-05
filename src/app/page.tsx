@@ -53,7 +53,7 @@ export default function Home() {
             <div className="flex items-start gap-3 border border-alert-green-border bg-alert-green-bg rounded-lg p-4">
               <ChartBarIcon className="w-6 h-6 text-karia-cyan shrink-0 mt-0.5" />
               <p className="text-sm text-foreground/90">
-                <span className="font-semibold text-karia-cyan">DATO CLAVE:</span>{" "}
+                <span className="font-medium text-karia-cyan">DATO CLAVE:</span>{" "}
                 reducir tiempos de respuesta y automatizar seguimientos aumenta
                 significativamente la tasa de recupero en cobranzas.
               </p>
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="flex items-start gap-3 border border-alert-green-border bg-alert-green-bg rounded-lg p-4">
               <GiftIcon className="w-6 h-6 text-karia-green shrink-0 mt-0.5" />
               <p className="text-sm text-foreground/90">
-                <span className="font-semibold text-karia-green">BONUS:</span>{" "}
+                <span className="font-medium text-karia-green">BONUS:</span>{" "}
                 Recibís un diagnóstico personalizado con oportunidades concretas
                 de mejora en tu operación.
               </p>
@@ -71,7 +71,7 @@ export default function Home() {
             <div className="flex items-start gap-3 border border-alert-red-border bg-alert-red-bg rounded-lg p-4">
               <ExclamationTriangleIcon className="w-6 h-6 text-karia-red shrink-0 mt-0.5" />
               <p className="text-sm text-foreground/90">
-                <span className="font-semibold text-karia-red">
+                <span className="font-medium text-karia-red">
                   SISTEMA LIMITADO:
                 </span>{" "}
                 KARIA trabaja con un número reducido de empresas por mes para
