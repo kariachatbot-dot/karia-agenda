@@ -358,41 +358,47 @@ export default function Confirmacion() {
       <section className="max-w-5xl mx-auto px-4 pb-16">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">Casos de Éxito</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-card-bg border border-card-border rounded-2xl p-8">
-            <div className="text-karia-cyan text-5xl font-serif mb-6">"</div>
-            <p className="text-foreground/80 text-base mb-6 leading-relaxed">
-              "Aumentamos la recuperación en un 15% en solo 3 meses, sin ampliar el equipo."
-            </p>
-            <p className="font-semibold">Director de Operaciones</p>
-            <p className="text-foreground/50 text-sm">Empresa de cobranzas líder</p>
-            <div className="mt-6 pt-6 border-t border-card-border">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+          <div className="bg-card-bg border border-card-border rounded-2xl p-8" style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ flex: 1 }}>
+              <div className="text-karia-cyan text-5xl font-serif mb-6">"</div>
+              <p className="text-foreground/80 text-base mb-6 leading-relaxed">
+                "Aumentamos la recuperación en un 15% en solo 3 meses, sin ampliar el equipo."
+              </p>
+              <p className="font-semibold">Director de Operaciones</p>
+              <p className="text-foreground/50 text-sm">Empresa de cobranzas líder</p>
+            </div>
+            <div className="pt-6 border-t border-card-border" style={{ marginTop: '24px' }}>
               <p className="text-3xl font-bold text-karia-green">+15%</p>
               <p className="text-foreground/50 text-sm uppercase tracking-wider mt-1">RECUPERACIÓN</p>
             </div>
           </div>
 
-          <div className="bg-card-bg border border-card-border rounded-2xl p-8">
-            <div className="text-karia-cyan text-5xl font-serif mb-6">"</div>
-            <p className="text-foreground/80 text-base mb-6 leading-relaxed">
-              "Reducimos costos operativos sin sacrificar resultados ni control."
-            </p>
-            <p className="font-semibold">Gerente de Finanzas</p>
-            <p className="text-foreground/50 text-sm">Fintech regional</p>
-            <div className="mt-6 pt-6 border-t border-card-border">
+          <div className="bg-card-bg border border-card-border rounded-2xl p-8" style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ flex: 1 }}>
+              <div className="text-karia-cyan text-5xl font-serif mb-6">"</div>
+              <p className="text-foreground/80 text-base mb-6 leading-relaxed">
+                "Reducimos costos operativos sin sacrificar resultados ni control."
+              </p>
+              <p className="font-semibold">Gerente de Finanzas</p>
+              <p className="text-foreground/50 text-sm">Fintech regional</p>
+            </div>
+            <div className="pt-6 border-t border-card-border" style={{ marginTop: '24px' }}>
               <p className="text-3xl font-bold text-karia-green">-20%</p>
               <p className="text-foreground/50 text-sm uppercase tracking-wider mt-1">COSTOS</p>
             </div>
           </div>
 
-          <div className="bg-card-bg border border-card-border rounded-2xl p-8">
-            <div className="text-karia-cyan text-5xl font-serif mb-6">"</div>
-            <p className="text-foreground/80 text-base mb-6 leading-relaxed">
-              "Hoy gestionamos muchas más cuentas con el mismo equipo, y con mucho más control."
-            </p>
-            <p className="font-semibold">CEO</p>
-            <p className="text-foreground/50 text-sm">Agencia de cobranzas</p>
-            <div className="mt-6 pt-6 border-t border-card-border">
+          <div className="bg-card-bg border border-card-border rounded-2xl p-8" style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ flex: 1 }}>
+              <div className="text-karia-cyan text-5xl font-serif mb-6">"</div>
+              <p className="text-foreground/80 text-base mb-6 leading-relaxed">
+                "Hoy gestionamos muchas más cuentas con el mismo equipo, y con mucho más control."
+              </p>
+              <p className="font-semibold">CEO</p>
+              <p className="text-foreground/50 text-sm">Agencia de cobranzas</p>
+            </div>
+            <div className="pt-6 border-t border-card-border" style={{ marginTop: '24px' }}>
               <p className="text-3xl font-bold text-karia-green">3x</p>
               <p className="text-foreground/50 text-sm uppercase tracking-wider mt-1">EFICIENCIA OPERATIVA</p>
             </div>
@@ -403,10 +409,10 @@ export default function Confirmacion() {
       {/* Preparación */}
       <section className="max-w-4xl mx-auto px-4 pb-16">
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-karia-cyan/50 bg-karia-cyan/10 text-karia-cyan text-sm font-medium mb-5">
+          <span className="inline-flex items-center gap-2 text-karia-cyan text-sm font-semibold tracking-widest uppercase mb-5">
             <DocumentTextIcon className="w-5 h-5" />
             PREPARACIÓN
-          </div>
+          </span>
           <h2 className="text-3xl md:text-4xl font-bold">Cómo prepararte</h2>
           <p className="text-foreground/60 mt-4 text-lg">
             Para aprovechar al máximo tu auditoría, te recomendamos tener a mano:
