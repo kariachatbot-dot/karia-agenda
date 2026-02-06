@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="pt-16 pb-10 px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-          Agendar Auditoría <span className="text-karia-cyan">KARIA</span>
+          Agendar Asesoría <span className="text-karia-cyan">KARIA</span>
         </h1>
         <p className="text-foreground/70 max-w-xl mx-auto text-lg">
           Sistema de cobranza automatizada diseñado para empresas de gestión de
@@ -25,7 +25,7 @@ export default function Home() {
       <section className="max-w-2xl mx-auto px-4 pb-8">
         <div className="bg-card-bg border border-card-border rounded-2xl p-8 md:p-10">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
-            AUDITORÍA ESTRATÉGICA DE 45 MINUTOS CON{" "}
+            ASESORÍA ESTRATÉGICA DE 45 MINUTOS CON{" "}
             <span className="text-karia-cyan">KARIA</span>
           </h2>
           <p className="text-foreground/60 text-center mb-8 max-w-lg mx-auto">
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="flex items-center justify-center gap-3 border border-alert-yellow-border bg-alert-yellow-bg rounded-lg p-4">
           <ExclamationTriangleIcon className="w-6 h-6 text-karia-yellow shrink-0" />
           <p className="text-sm text-karia-red font-medium">
-            Si no confirmás tu auditoría en las próximas horas, el cupo se
+            Si no confirmás tu asesoría en las próximas horas, el cupo se
             libera automáticamente.
           </p>
         </div>
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-3">
-            A continuación podrás agendar tu auditoría con{" "}
+            A continuación podrás agendar tu asesoría con{" "}
             <span className="text-karia-cyan">KARIA</span>
           </h2>
           <p className="text-foreground/60 text-center mb-8 max-w-md mx-auto">
