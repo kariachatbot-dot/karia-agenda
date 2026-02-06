@@ -31,7 +31,7 @@ export default function Confirmacion() {
         </div>
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-          Tu asesoría con <span className="text-karia-cyan">KARIA</span> está
+          Tu asesoría con <span className="bg-gradient-to-r from-karia-green to-yellow-400 bg-clip-text text-transparent">KARIA</span> está
           <br className="hidden md:block" /> casi confirmada
         </h1>
 
@@ -204,7 +204,7 @@ export default function Confirmacion() {
         <div className="mt-8 bg-card-bg border border-card-border rounded-2xl p-6 md:p-8 text-center">
           <div className="flex items-center justify-center gap-2 text-karia-yellow mb-3">
             <ExclamationTriangleIcon className="w-6 h-6" />
-            <span className="font-semibold uppercase tracking-widest">IMPORTANTE</span>
+            <span className="font-medium uppercase tracking-widest">IMPORTANTE</span>
           </div>
           <p className="text-foreground/80 text-base max-w-2xl mx-auto">
             Si cumplís estos criterios,{" "}
@@ -219,7 +219,7 @@ export default function Confirmacion() {
         <div className="bg-gradient-to-br from-karia-red/10 to-transparent border border-karia-red/30 rounded-2xl p-8 md:p-10">
           <div className="flex items-center gap-3 text-karia-red mb-5">
             <XCircleIcon className="w-7 h-7" />
-            <span className="font-semibold uppercase tracking-widest">EL PROBLEMA</span>
+            <span className="font-medium uppercase tracking-widest">EL PROBLEMA</span>
           </div>
           <h3 className="text-2xl md:text-3xl font-bold mb-8">
             La cobranza dejó de escalar con métodos tradicionales
@@ -265,10 +265,10 @@ export default function Confirmacion() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          <div className="bg-card-bg border border-karia-cyan/30 rounded-2xl p-8 text-center">
+          <div className="bg-card-bg border border-karia-green/30 border-t-2 border-t-karia-green rounded-2xl p-8 text-center">
             <div className="flex justify-center mb-5">
-              <div className="p-4 rounded-xl bg-karia-cyan/20">
-                <DatabaseIcon className="w-7 h-7 text-karia-cyan" />
+              <div className="p-4 rounded-xl bg-karia-green/20">
+                <DatabaseIcon className="w-7 h-7 text-karia-green" />
               </div>
             </div>
             <p className="text-foreground/80">
@@ -276,10 +276,10 @@ export default function Confirmacion() {
             </p>
           </div>
 
-          <div className="bg-card-bg border border-karia-cyan/30 rounded-2xl p-8 text-center">
+          <div className="bg-card-bg border border-karia-green/30 border-t-2 border-t-karia-green rounded-2xl p-8 text-center">
             <div className="flex justify-center mb-5">
-              <div className="p-4 rounded-xl bg-karia-cyan/20">
-                <TargetIcon className="w-7 h-7 text-karia-cyan" />
+              <div className="p-4 rounded-xl bg-karia-green/20">
+                <TargetIcon className="w-7 h-7 text-karia-green" />
               </div>
             </div>
             <p className="text-foreground/80">
@@ -287,10 +287,10 @@ export default function Confirmacion() {
             </p>
           </div>
 
-          <div className="bg-card-bg border border-karia-cyan/30 rounded-2xl p-8 text-center">
+          <div className="bg-card-bg border border-karia-green/30 border-t-2 border-t-karia-green rounded-2xl p-8 text-center">
             <div className="flex justify-center mb-5">
-              <div className="p-4 rounded-xl bg-karia-cyan/20">
-                <BoltIcon className="w-7 h-7 text-karia-cyan" />
+              <div className="p-4 rounded-xl bg-karia-green/20">
+                <BoltIcon className="w-7 h-7 text-karia-green" />
               </div>
             </div>
             <p className="text-foreground/80">
@@ -317,11 +317,11 @@ export default function Confirmacion() {
             </div>
             <div>
               <div className="flex justify-center mb-3">
-                <div className="p-3 rounded-xl bg-karia-cyan/20">
-                  <CurrencyDollarIcon className="w-6 h-6 text-karia-cyan" />
+                <div className="p-3 rounded-xl bg-karia-green/20">
+                  <CurrencyDollarIcon className="w-6 h-6 text-karia-green" />
                 </div>
               </div>
-              <p className="text-3xl md:text-4xl font-bold text-karia-cyan">-40%</p>
+              <p className="text-3xl md:text-4xl font-bold text-karia-green">-40%</p>
               <p className="text-foreground/60 text-sm uppercase tracking-wider mt-2">Costos</p>
             </div>
             <div>
@@ -348,7 +348,7 @@ export default function Confirmacion() {
           </h3>
           <p className="text-foreground/60 text-lg">
             En la demo verás el sistema aplicado a{" "}
-            <span className="text-karia-cyan font-medium">tu realidad</span>, con un diagnóstico
+            <span className="text-karia-cyan font-bold">tu realidad</span>, con un diagnóstico
             personalizado basado en tus datos y procesos actuales.
           </p>
         </div>
@@ -380,7 +380,7 @@ export default function Confirmacion() {
             <p className="font-semibold">Gerente de Finanzas</p>
             <p className="text-foreground/50 text-sm">Fintech regional</p>
             <div className="mt-6 pt-6 border-t border-card-border">
-              <p className="text-3xl font-bold text-karia-cyan">-20%</p>
+              <p className="text-3xl font-bold text-karia-green">-20%</p>
               <p className="text-foreground/50 text-sm uppercase tracking-wider mt-1">COSTOS</p>
             </div>
           </div>
